@@ -1,0 +1,33 @@
+.name{
+	display:flex;
+	justify-content: space-around;
+	text-align: left;
+}
+
+body{
+	text-align: center;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.table_container{
+	display: flex;
+	justify-content: center;
+	gap:20px;
+}
+
+hr{
+	max-width: 800px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+  	background-color: #D6EEEE;
+}
+
+tr:hover {
+	background-color: #D6EEEE;
+}
